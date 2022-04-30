@@ -2,7 +2,7 @@
 # https://github.com/srid/emanote/blob/master/default/index.yaml
 
 page:
-  siteTitle: Emanote Template
+  siteTitle: Notes
 
 template:
   theme: red
@@ -15,6 +15,3 @@ template:
 
   sidebar:
     collapsed: false
-
-  # If you are hosting on GitLab Pages, you may want to remove this.
-  urlStrategy: pretty
