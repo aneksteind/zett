@@ -1,3 +1,3 @@
 # Notes
 
-A place where I store notes for anything I take the time to write down.
+A place where I store anything I take the time to write down.
