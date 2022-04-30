@@ -1,2 +1,3 @@
 template:
   baseUrl: /zett/
+  editUrl: /zett/edit/master/
