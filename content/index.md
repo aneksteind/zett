@@ -1,5 +1,3 @@
-# Emanote Template
+# Notes
 
-A template for your next [Emanote] website for hosting in [[GitHub Pages]], editing in [Visual Studio Code](https://emanote.srid.ca/resources/vscode), etc.. For details, see https://github.com/srid/emanote-template.
-
-[Emanote]: https://emanote.srid.ca/
+A place where I store notes for anything I take the time to write down.
