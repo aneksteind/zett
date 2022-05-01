@@ -1,7 +1,7 @@
 ---
 page:
   headHtml: |
-    <snippet var="js.prism" />
+    <snippet var="js.syntax" />
 ---
 
 #### Haskell

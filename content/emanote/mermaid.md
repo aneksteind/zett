@@ -2,6 +2,7 @@
 page:
   headHtml: |
     <snippet var="js.mermaid" />
+    <snippet var="js.syntax" />
 ---
 
 ```mermaid
@@ -13,3 +14,7 @@ graph TD;
     C-->D;
 ```
 
+```python
+def foo(bar):
+    pass
+```
