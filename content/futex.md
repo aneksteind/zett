@@ -24,14 +24,13 @@ address). The entry is usually a queue to provide
 FIFO access to wait requests.
 
 When a process or thread is done with the shared 
-resource, it will make a system call to wake one 
+resource, it will make a futex system call to wake one 
 or more waiters. The kernel will remove the waiting 
 threads from its internal futex state structure
 after they are marked as runnable.
 
 Processes can handle shared resources by memory
 mapping the futex address.
-
 
 #### Further Reading:
 
