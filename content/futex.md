@@ -1,7 +1,6 @@
-A futex (fast user mutex) is a system call
-that provides userspace applications a mechanism
+A futex (fast user mutex) provides userspace applications a mechanism
 for thread safety that does not require
-a system call when the resource is uncontended.
+a system call when the desired resource is uncontended.
 
 Locking and synchronization primitives can be
 built on top of futexes.
