@@ -1,23 +1,13 @@
 page:
   siteTitle: Notes
-
-template:
-  theme: red
-  sidebar:
-    collapsed: false
-
-# Builtin JS behaviour library. Use them in `page.headHtml`
-js:
-  # Syntax highlighting using highlight.js
-  syntax: |
+  headHtml: |
+    <!-- Syntax highlighting using highlight.js -->
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/hybrid.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/haskell.min.js"></script>
     <script>hljs.highlightAll();</script>
 
-  # Diagrams using mermaid.js
-  mermaid: |
     <!-- mermaid.js -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
@@ -25,7 +15,6 @@ js:
       mermaid.init(undefined,document.querySelectorAll(".mermaid"));
     </script>
 
-  mathjax: |
     <script>
       window.MathJax = {
         startup: {
@@ -36,3 +25,8 @@ js:
       };
     </script>
     <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+template:
+  theme: red
+  sidebar:
+    collapsed: false
