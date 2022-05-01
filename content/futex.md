@@ -7,7 +7,7 @@ built on top of futexes.
 
 When an application wants to use a shared resource,
 it can perform an atomic compare and set function
-on some variable that will be indicate success
+on some variable that will indicate success
 in the uncontended case. This check prevents
 the potential of expensive context switching perfomed
 by the kernel in a system call.
