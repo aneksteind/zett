@@ -41,7 +41,7 @@
 <script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
 
   
-  <link href='tailwind.css?instanceId=7749ec25-8260-4c7b-936e-17bb12cfc85c' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=1fbb0f76-d619-43b8-8458-2782c47b0a88' rel='stylesheet' type='text/css' />
 
   <!-- Heist error element -->
   <style type='text/css'>
@@ -287,7 +287,7 @@
     </p>
   
     <p class='mb-3'>
-      When a process or thread is done with the shared resource, it will make a system call to wake one or more waiters. The kernel will remove the waiting threads from its internal futex state structure after they are marked as runnable.
+      When a process or thread is done with the shared resource, it will make a futex system call to wake one or more waiters. The kernel will remove the waiting threads from its internal futex state structure after they are marked as runnable.
     </p>
   
     <p class='mb-3'>
