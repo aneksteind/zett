@@ -41,7 +41,7 @@
 <script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
 
   
-  <link href='tailwind.css?instanceId=a6cea757-da00-4b70-a1fb-a956c91442c2' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=7b5311b7-bdf2-420a-9a73-8e03eb2ccca8' rel='stylesheet' type='text/css' />
 
   <!-- Heist error element -->
   <style type='text/css'>
@@ -242,11 +242,16 @@ graph TD;
     A--&gt;B;
     A--&gt;C;
     B--&gt;D;
-    C--&gt;D;</code></pre></div>
-    <p class='mb-3'>
-      
-    </p>
-  
+    C--&gt;D;</code></pre></div><div class='py-0.5 mb-3 text-sm'><pre><code class='mermaid language-mermaid'>stateDiagram
+    direction LR
+    [*] --&gt; A
+    A --&gt; B
+    B --&gt; C
+    state B {
+      direction LR
+      a --&gt; b
+    }
+    B --&gt; D</code></pre></div>
   <div class='flex items-center justify-center mt-2'>
   <a class='text-gray-300 hover:text-red-600 text-sm' title='Edit this page on GitHub' href='https://github.com/aneksteind/zett/edit/master/content/emanote.md'>
     <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
