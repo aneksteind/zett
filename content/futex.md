@@ -1,4 +1,4 @@
-A futex (fast user mutex) provides userspace applications a mechanism
+A futex (fast userspace mutex) provides userspace applications a mechanism
 for thread safety that does not require
 a system call when the desired resource is uncontended.
 
