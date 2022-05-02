@@ -13,7 +13,7 @@ the potential of expensive context switching perfomed
 by the kernel in a system call.
 
 When this operation fails, i.e. when the resource
-is contended, the futex system call will be invoked
+is contended, the futex system call may be invoked
 to let the kernel know that the application
 would like to be put to sleep until the resource
 is available.
