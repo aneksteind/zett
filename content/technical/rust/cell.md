@@ -2,8 +2,6 @@
 tags: [rust]
 ---
 
-# Rust cell
-
 The rust borrow checker ensures at compile time that references to objects
 are either non-unique and immutable `&` or unique `&mut`.
 When a type takes on a shared or unique reference, it's called
