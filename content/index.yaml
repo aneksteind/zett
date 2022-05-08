@@ -27,6 +27,6 @@ page:
     <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 template:
-  theme: red
+  theme: blue
   sidebar:
     collapsed: false
