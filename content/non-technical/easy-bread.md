@@ -30,6 +30,6 @@ tags: [bread, baking]
 6. In lightly oiled bowl, let dough proof for 1-2 hours or until doubled in size
 7. Split dough into two parts, shape into loaves
 8. Lightly wrap loaves in greased plastic wrap
-9.  Set oven to 450F while loaves proof for another 45 minutes
-10. Lightly dust and slash tops of loaves
+9. Set oven to 450F while loaves proof for another 45 minutes
+10. Lightly dust then slash tops of loaves
 11. Bake for 20-25 minutes
