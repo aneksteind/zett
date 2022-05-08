@@ -12,7 +12,7 @@ tags: [bread, baking]
 - 2 1/2 teaspoon (15g) salt
 - 1 2/3 cups (380g) warm water
 
-## Setup
+## Materials
 
 - large mixing bowl
 - oil
