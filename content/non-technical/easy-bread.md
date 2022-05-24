@@ -2,7 +2,7 @@
 tags: [bread, baking]
 ---
 
-# Easy Bread
+# easy bread
 
 ## Ingredients
 
