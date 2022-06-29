@@ -32,4 +32,4 @@ tags: [bread, baking]
 8. Lightly wrap loaves in greased plastic wrap
 9. Set oven to 450F while loaves proof for another 45 minutes
 10. Lightly dust then slash tops of loaves
-11. Bake for 20-25 minutes
+11. Bake for 20-25 minutes, 190 degrees F internal temp
