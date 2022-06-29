@@ -6,7 +6,7 @@ tags: [bread, baking]
 
 ## Ingredients
 
-- 4 1/2 - 5 cups (540 - 600g) flour
+- 4 - 4 1/2 cups (500 - 540g) flour
 - 1 tablespoon (11g) sugar
 - 2 1/4 teaspoon (12.5g) instant yeast
 - 2 1/2 teaspoon (15g) salt
