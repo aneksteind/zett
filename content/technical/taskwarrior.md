@@ -26,3 +26,9 @@ task +tag list
 task <filter> add <desc> depends:<taskid>
 task <filter> modify depends:<taskid>
 ```
+
+### set priority
+
+```
+task <filter> modify priority:(L | M | H)
+```
