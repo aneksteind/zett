@@ -5,15 +5,15 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    Realtime Transport Protocol (RTP) – Notes
+    TaskWarrior cheat sheet – Notes
   </title>
   
     
-      <meta property='og:description' content='A network protocol for transferring audio and video.' />
+      <meta property='og:description' content />
       <meta property='og:site_name' content='Notes' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='Realtime Transport Protocol (RTP)' />
+      <meta property='og:title' content='TaskWarrior cheat sheet' />
     
     
       <base href='/zett/' />
@@ -549,7 +549,11 @@
     
       <!-- Variable bindings for this tree-->
   
-  
+    
+      
+    
+    
+
 
 
   
@@ -562,12 +566,12 @@
     
     
       <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
-      
+    
   
-    <a class='font-bold text-blue-600 hover:underline truncate' title='Realtime Transport Protocol (RTP)' href='technical/realtime-transport-protocol.html'>
+    <a class='hover:underline truncate' title='Realtime Transport Protocol (RTP)' href='technical/realtime-transport-protocol.html'>
       Realtime Transport Protocol (RTP)
     </a>
     
@@ -701,11 +705,7 @@
     
       <!-- Variable bindings for this tree-->
   
-    
-      
-    
-    
-
+  
 
 
   
@@ -718,12 +718,12 @@
     
     
       <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
         </path>
       </svg>
-    
+      
   
-    <a class='hover:underline truncate' title='TaskWarrior cheat sheet' href='technical/taskwarrior.html'>
+    <a class='font-bold text-blue-600 hover:underline truncate' title='TaskWarrior cheat sheet' href='technical/taskwarrior.html'>
       TaskWarrior cheat sheet
     </a>
     
@@ -750,43 +750,22 @@
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-blue-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    Realtime Transport Protocol (RTP)
+    TaskWarrior cheat sheet
   </a>
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
-  
+  <h2 id='add-a-task' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>add a task</h2><div class='py-0.5 mb-3 text-sm'><pre><code class='language-none'>task &lt;filter&gt; add &lt;description&gt;
+task +tag add &lt;description&gt;</code></pre></div><h2 id='list-tasks' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>list tasks</h2><div class='py-0.5 mb-3 text-sm'><pre><code class='language-none'>task &lt;filter&gt; list
+task +tag list</code></pre></div><h2 id='link-dependencies' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>link dependencies</h2><div class='py-0.5 mb-3 text-sm'><pre><code class='language-none'>task &lt;filter&gt; add &lt;desc&gt; depends:&lt;taskid&gt;
+task &lt;filter&gt; modify depends:&lt;taskid&gt;</code></pre></div>
     <p class='mb-3'>
-      A network protocol for transferring audio and video.
-    </p>
-  
-    <p class='mb-3'>
-      Typically runs over UDP.
-    </p>
-  
-    <p class='mb-3'>
-      Runs in conjunction with RTP Control Protocol (RTCP). RTCP is used to monitor transmission statistics of RTP, and sync multiple streams. RTP carries the stream itself.
-    </p>
-  
-    <p class='mb-3'>
-      Detects packet loss and out-of-order delivery.
-    </p>
-  
-    <p class='mb-3'>
-      RTP has profiles and payload formats. Every instantiation of RTP in an application requres a profile and at least one payload format spec.
-    </p>
-  
-    <p class='mb-3'>
-      The profile says how to encode payload data.
-    </p>
-  
-    <p class='mb-3'>
-      <a href='technical/secure-realtime-transport-protocol.html' class='text-blue-600 mavenLinkBold hover:underline' data-wikilink-type='WikiLinkNormal'>Secure Realtime Transport Protocol (SRTP)</a> is an example of a profile.
+      
     </p>
   
 
   <div class='flex items-center justify-center mt-2'>
-  <a class='text-gray-300 hover:text-blue-600 text-sm' title='Edit this page on GitHub' href='https://github.com/aneksteind/zett/edit/master/content/technical/realtime-transport-protocol.md'>
+  <a class='text-gray-300 hover:text-blue-600 text-sm' title='Edit this page on GitHub' href='https://github.com/aneksteind/zett/edit/master/content/technical/taskwarrior.md'>
     <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
       <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z'></path>
     </svg>
@@ -797,32 +776,6 @@
             <div class='flex flex-col lg:flex-row lg:space-x-2'>
               
               
-  <div class='flex-1 p-4 mt-8 bg-gray-100 rounded'>
-    <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
-    <ul class='space-y-1'>
-      
-        <li>
-          <a class='text-blue-600 mavenLinkBold hover:bg-blue-50' href='technical/secure-realtime-transport-protocol.html'>
-            Secure Realtime Transport Protocol (SRTP)
-          </a>
-          
-            <div class='mb-4 overflow-auto text-sm text-gray-500'>
-  
-    <div class='pl-2 mt-2 border-l-2 border-blue-200 hover:border-blue-500'>
-      <div><p>A profile for <a href='technical/realtime-transport-protocol.html' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Realtime Transport Protocol (RTP)</a>.</p></div>
-    </div>
-  
-    <div class='pl-2 mt-2 border-l-2 border-blue-200 hover:border-blue-500'>
-      <div><p>Just as <a href='technical/realtime-transport-protocol.html' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Realtime Transport Protocol (RTP)</a> is accompanied by RTCP for transmission statistics monitoring, SRTP is accompanied by SRTCP.</p></div>
-    </div>
-  
-</div>
-          
-        </li>
-      
-    </ul>
-  </div>
-
             </div>
             
   <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
@@ -830,18 +783,18 @@
       <!-- FIXME: The use of -/tags is wrong, because we should use routeUrl using Ema's encoder 
         Perhaps Emanote should inject tagMetas with urls.
       -->
-      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-blue-500' href='-/tags/networking.html'>
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-blue-500' href='-/tags/taskwarrior.html'>
         <!-- DoNotFormat -->
-        #networking
+        #taskwarrior
         <!-- DoNotFormat -->
       </a>
     
       <!-- FIXME: The use of -/tags is wrong, because we should use routeUrl using Ema's encoder 
         Perhaps Emanote should inject tagMetas with urls.
       -->
-      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-blue-500' href='-/tags/rtp.html'>
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-blue-500' href='-/tags/todo.html'>
         <!-- DoNotFormat -->
-        #rtp
+        #todo
         <!-- DoNotFormat -->
       </a>
     
